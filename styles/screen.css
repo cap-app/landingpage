@@ -33,7 +33,7 @@
 ---------------------------------------------  */
 * {
     margin: 0;
-    padding: 0;     
+    padding: 0;
 }
 
 *, :before, :after {
@@ -465,9 +465,9 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
     position: relative;
     margin-bottom: -4px;
     padding-top: 0;
-    color: #030303;
-    font-size: 13.0em;
-    font-family: 'rye';
+    color: #fff;
+    font-size: 6.6em;
+    font-family: 'SheltonSlab';
     font-weight: normal;
     font-style: normal;
 }
@@ -479,7 +479,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 }
 
 #getapp h1 span, #getapp h2 span {
-    font-weight: 700;
+    font-weight: 400;
 }
 
 #getapp h2 a {
@@ -499,9 +499,10 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 }
 
 #getapp p {
+    color: #fff;
     margin-bottom: 36px;
+    font-family: "SheltonSlab";
     font-size: 2.4em;
-    color: #030303;
 }
 
 #getapp .download-a {
@@ -536,12 +537,12 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
     z-index: 1;
     width: 100%;
     height: 100%;
-    background-image: url(../images/highnoon.png); 
+    background-image: url(../images/highnoon.png);
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
 }
 
-.has-pattern #featured:before, .has-pattern #top > .fit-a > div, .has-pattern #content.a > .vb:after */{
+.has-pattern #featured:before, .has-pattern #top > .fit-a > div, .has-pattern #content.a > .vb:after * {
     content: "";
     display: block;
     position: absolute;
@@ -695,8 +696,6 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
     margin-bottom: 0;
     padding-bottom: 0;
 }
-
-
 
 #content.a > .vid figure {
     position: relative;
@@ -1522,7 +1521,8 @@ footer #imprint div > p:before, footer #imprint div > p:after {
 .gallery-b li > div > a img, .gallery-b li > .fit-a * {
     position: absolute;
     left: -3000em;
-    top: 0;background: -moz-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    top: 0;
+    background: -moz-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
     background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fca429), color-stop(100%, #ff6512));
     background: -webkit-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
     background: -o-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
@@ -5021,7 +5021,7 @@ svg:not(:root) {
 }
 
 .ie9.theme-d.has-gradient #featured, .ie9.theme-d.has-gradient #getapp, .ie9.theme-d.has-gradient .list-a li a:hover i, .ie9.theme-d.has-gradient .list-b li .no, .ie9.theme-d.has-gradient #content.a > .vb, .ie9.theme-d.has-gradient .news-c article, .ie9.theme-d.has-gradient .gallery-b li:before, .ie9.theme-d.has-gradient .gallery-c ul li:before, .ie9.theme-d.has-gradient .gallery-a li a:before, .ie9.theme-d.has-gradient .gallery-b.b > li > div:before, .ie9.theme-d.gradient .news-e header figure:before {
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjOGVjNjRlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQxYWJhMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);    
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjOGVjNjRlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQxYWJhMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
 }
 
 .lt-ie9.theme-d.has-gradient #featured, .lt-ie9.theme-d.has-gradient #getapp, .lt-ie9.theme-d.has-gradient .news-c article, .lt-ie9.theme-d.has-gradient #content.a > .vb {
@@ -8557,6 +8557,16 @@ svg:not(:root) {
 #twitter li img {
     left: 95px;
     top: 30%;
+}
+
+/* tale app */
+
+#heading {
+    background-color: rgba(240, 138, 64, 0.5) !important;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 0px 60px;
+    width: 55%;
 }
 
 /* Responsive --------- */

@@ -15,6 +15,7 @@
     <link rel="stylesheet" media="print" href="styles/print.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dancing" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="styles/fonts/MyFontsWebfontsKit/MyFontsWebfontsKit.css">
 </head>
 <body>
 <div id="root">
@@ -51,12 +52,14 @@
     <article id="getapp">
         <figure class="mobile-c"><img src="images/screen_352x621.png" alt="Placeholder" width="352" height="621">
         </figure>
-        <h2>
-            <a href="./">
-                <span class="opacity-100">tales</span>
-            </a>
-        </h2>
-        <p>They are late, eh?</p>
+        <div>
+            <div id="heading">
+                <h2>
+                    <span class="opacity-100">tale</span>
+                </h2>
+                <p>They are late, eh?</p>
+            </div>
+        </div>
         <ul class="download-a a">
             <li class="as"><a rel="external" href="./">Download on the App Store</a></li>
             <li class="gp"><a rel="external" href="./">Get it on Google Play</a></li>
@@ -69,13 +72,15 @@
             <header class="heading-a">
                 <h3><span class="small">About</span> <span class="strong">T</span>hey <span class="strong">A</span>re
                     <span class="strong">L</span>ate, <span class="strong">E</span>h? </h3>
-                <p>tale is about coming after the others. Nobody cares if you're first. But if you're last you saved a <strong>lot</strong> of time</p>
+                <p>tale is about coming after the others. Nobody cares if you're first. But if you're last you saved a
+                    <strong>lot</strong> of time</p>
             </header>
             <ul class="list-a">
                 <li><a><i class="icon-basic" data-icon="~"></i> <span class="title">Ask anything!</span>
                     We know when our friends finally arrive <br><strong>So you may ask questions till then!</strong>
                 </a></li>
-                <li><a><i class="icon-basic" data-icon="&#xe014;"></i> <span class="title">Cross-Platform</span>Even your IPhone "friends"
+                <li><a><i class="icon-basic" data-icon="&#xe014;"></i> <span class="title">Cross-Platform</span>Even
+                    your IPhone "friends"
                     can participate<br> <strong>- They might even pay for this!</strong></a></li>
                 <li><a><i class="icon-basic" data-icon="&#xe006;"></i> <span class="title">One Update!</span>
                     You are hearing right. We care enough to update your current arrival time.
@@ -150,8 +155,9 @@
             </header>
             <ul class="slider-a">
                 <li><img src="images/phteven1_157x157.png" alt="Placeholder" width="157" height="157"><span
-                        class="title"><span>McPenguin</span>Socially awkward</span> Went to the meeting spot and checked the app.<br />
-                        Went back home because friends are still half an hour away.
+                        class="title"><span>McPenguin</span>Socially awkward</span> Went to the meeting spot and checked
+                    the app.<br/>
+                    Went back home because friends are still half an hour away.
                 </li>
                 <li><img src="images/grumpy_157x157.png" alt="Placeholder" width="157" height="157"><span class="title"><span>Grumpy Cat</span>grumpy Cat</span>No.
                     You can't force me to like your App. I didn't want to "Call my owner", but thanks Obama...
@@ -173,7 +179,7 @@
             <header class="heading-a">
                 <h3><span class="small">Quote</span></h3>
             </header>
-            <figure class="zoomin"><img src="../images/quote.png">
+            <figure class="zoomin"><img src="./images/quote.png">
             </figure>
         </article>
 
@@ -358,7 +364,7 @@
     </footer>
 </div>
 <script>
-    head.load('javascript/jquery.js', 'javascript/capapp_custom.js', 'javascript/scripts.js', 'javascript/mobile.js')
+  head.load('javascript/jquery.js', 'javascript/tale_custom.js', 'javascript/scripts.js', 'javascript/mobile.js')
 </script>
 </body>
 </html>
