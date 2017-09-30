@@ -342,6 +342,30 @@ AddDefaultCharset utf-8
 
 </IfModule>
 
+
+# ----------------------------------------------------------------------
+# | host and path redirects                                            |
+# ----------------------------------------------------------------------
+
+ <IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteCond %{HTTP_HOST} ^api.tale.rocks$
+    RewriteRule (.*)$ https://api.tale-app.tech/$1 [R=301,L]
+
+    RewriteCond %{HTTP_HOST} ^api.tale-app.tech$
+    RewriteRule ^(.*)$ http://localhost:1473/$1 [P]
+
+    RewriteCond %{HTTP_HOST} ^tale-app.tech$ [OR]
+    RewriteCond %{HTTP_HOST} ^www.tale-app.tech$
+    RewriteRule (.*)$ https://www.tale.rocks/$1 [R=301,L]
+
+    #RewriteRule ^(.*)$ /index.html$1 [L]
+    RewriteRule ^de(.*)$ /index_de.html$1 [L]
+
+ </IfModule>
+
+
 # ----------------------------------------------------------------------
 # | Forcing `https://`                                                 |
 # ----------------------------------------------------------------------
@@ -394,19 +418,10 @@ AddDefaultCharset utf-8
  <IfModule mod_rewrite.c>
      RewriteEngine On
      RewriteCond %{HTTP_HOST} !^www\. [NC]
+     RewriteCond %{HTTP_HOST} !^api\. [NC]
      RewriteCond %{SERVER_ADDR} !=127.0.0.1
      RewriteCond %{SERVER_ADDR} !=::1
      RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
- </IfModule>
-
-
-# ----------------------------------------------------------------------
-# | 301 redirects                                                       |
-# ----------------------------------------------------------------------
-
- <IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteRule ^de(.*)$ /index_de.html$1 [L]
  </IfModule>
 
 
