@@ -323,7 +323,7 @@ AddDefaultCharset utf-8
     RewriteEngine On
 
     # (2)
-#    Options +FollowSymlinks
+    Options +FollowSymlinks
 
     # (3)
     # Options +SymLinksIfOwnerMatch
@@ -335,10 +335,10 @@ AddDefaultCharset utf-8
     # RewriteOptions <options>
 
     # (6)
-    RewriteCond %{HTTPS} =on
-    RewriteRule ^ - [env=proto:https]
-    RewriteCond %{HTTPS} !=on
-    RewriteRule ^ - [env=proto:http]
+#    RewriteCond %{HTTPS} =on
+#    RewriteRule ^ - [env=proto:https]
+#    RewriteCond %{HTTPS} !=on
+#    RewriteRule ^ - [env=proto:http]
 
 </IfModule>
 
@@ -350,9 +350,9 @@ AddDefaultCharset utf-8
 # https://wiki.apache.org/httpd/RewriteHTTPToHTTPS
 
 # <IfModule mod_rewrite.c>
-#    RewriteEngine On
-#    RewriteCond %{HTTPS} !=on
-#    RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+    RewriteEngine On
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 # </IfModule>
 
 # ----------------------------------------------------------------------
