@@ -33,7 +33,7 @@
 ---------------------------------------------  */
 * {
     margin: 0;
-    padding: 0;
+    padding: 0;     
 }
 
 *, :before, :after {
@@ -102,7 +102,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 }
 
 #language a {
-    color: #FFFFFF;
+    color: #030303;
 }
 
 #top {
@@ -198,7 +198,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
     float: left;
     height: 35px;
     padding: 0 18px;
-    color: #fff;
+    color: #030303;
     line-height: 35px;
     text-decoration: none;
 }
@@ -209,7 +209,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 
 #nav > ul > li > a:hover, #nav > ul > li.active > a, #nav > ul > li:hover > a {
     background: #fff;
-    color: #6f8188;
+    color: #ff6512;
 }
 
 #nav > ul > li.sub:hover > a {
@@ -430,9 +430,9 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
     overflow: hidden;
     position: relative;
     z-index: 8;
-    padding: 355px 0 161px;
+    padding: 150px 0 365px;
     background: #000;
-    color: #fff;
+    color: #030303;
     font-weight: 300;
 }
 
@@ -448,13 +448,9 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 #getapp > figure {
     position: absolute;
     left: 50%;
-    top: 193px;
+    top: 500px;
     width: 297px;
-    margin: 0 0 0 -550px;
-}
-
-#getapp > figure.mobile-c {
-    margin-left: -568px;
+    margin: 0 0 0 0px;
 }
 
 #getapp > figure.mobile-d {
@@ -465,9 +461,9 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
     position: relative;
     margin-bottom: -4px;
     padding-top: 0;
-    color: #fff;
+    color: #030303;
     font-size: 13.0em;
-    font-family: 'DancingScriptRegular';
+    font-family: 'rye';
     font-weight: normal;
     font-style: normal;
 }
@@ -485,6 +481,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 #getapp p {
     margin-bottom: 36px;
     font-size: 2.4em;
+    color: #030303;
 }
 
 #getapp .download-a {
@@ -510,7 +507,20 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
     text-align: center;
 }
 
-.has-pattern #featured:before, .has-pattern #getapp:before, .has-pattern #top > .fit-a > div, .has-pattern #content.a > .vb:after {
+.has-pattern #getapp:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/highnoon.png);
+    background-position: center; 
+}
+
+.has-pattern #featured:before, .has-pattern #top > .fit-a > div, .has-pattern #content.a > .vb:after */{
     content: "";
     display: block;
     position: absolute;
@@ -665,18 +675,12 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
     padding-bottom: 0;
 }
 
+
+
 #content.a > .vid figure {
     position: relative;
     z-index: 1;
     margin: 0;
-}
-
-#content.a > .vid figure img {
-    display: block;
-    z-index: 1;
-    width: 100% !important;
-    opacity: .43;
-    filter: alpha(opacity=43);
 }
 
 #content.a > .vid figure a {
@@ -1194,15 +1198,17 @@ footer #imprint div > p:before, footer #imprint div > p:after {
 .download-a.a li a {
     width: 196px;
     height: 61px;
-    border: 2px solid #fff;
+    border: 2px solid #030303;
 }
 
 .download-a.a li.as a {
-    background: url(../images/download-as-b.png) -5px -5px no-repeat;
+    background: url(../images/download-as-d.png) -5px -5px no-repeat;
+    background-color: black;
 }
 
 .download-a.a li.gp a {
-    background: url(../images/download-gp-b.png) -5px -5px no-repeat;
+    background: url(../images/download-gp-d.png) -5px -5px no-repeat;
+    background-color: black;
 }
 
 .download-a.a li.as a:hover {
@@ -4785,12 +4791,12 @@ svg:not(:root) {
 }
 
 .theme-a.has-gradient #featured, .theme-a.has-gradient #getapp, .theme-a.has-gradient .list-a li a:hover i, .theme-a.has-gradient .list-b li .no, .theme-a.has-gradient #content.a > .vb, .theme-a.has-gradient .news-c article, .theme-a.has-gradient .gallery-b li:before, .theme-a.has-gradient .gallery-c ul li:before, .theme-a.has-gradient .gallery-a li a:before, .theme-a.has-gradient .gallery-b.b > li > div:before, .theme-a.gradient .news-e header figure:before {
-    background: -moz-linear-gradient(-45deg, #fe2d58 0%, #ff5132 100%);
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fe2d58), color-stop(100%, #ff5132));
-    background: -webkit-linear-gradient(-45deg, #fe2d58 0%, #ff5132 100%);
-    background: -o-linear-gradient(-45deg, #fe2d58 0%, #ff5132 100%);
-    background: -ms-linear-gradient(-45deg, #fe2d58 0%, #ff5132 100%);
-    background: linear-gradient(135deg, #fe2d58 0%, #ff5132 100%);
+    background: -moz-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fca429), color-stop(100%, #ff6512));
+    background: -webkit-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -o-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -ms-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: linear-gradient(135deg, #fca429 0%, #ff6512 100%);
 }
 
 .ie9.theme-a.has-gradient #featured, .ie9.theme-a.has-gradient #getapp, .ie9.theme-a.has-gradient .list-a li a:hover i, .ie9.theme-a.has-gradient .list-b li .no, .ie9.theme-a.has-gradient #content.a > .vb, .ie9.theme-a.has-gradient .news-c article, .ie9.theme-a.has-gradient .gallery-b li:before, .ie9.theme-a.has-gradient .gallery-c ul li:before, .ie9.theme-a.has-gradient .gallery-a li a:before, .ie9.theme-a.has-gradient .gallery-b.b > li > div:before, .ie9.theme-a.gradient .news-e header figure:before {
@@ -4850,12 +4856,12 @@ svg:not(:root) {
 }
 
 .theme-b.has-gradient #featured, .theme-b.has-gradient #getapp, .theme-b.has-gradient .list-a li a:hover i, .theme-b.has-gradient .list-b li .no, .theme-b.has-gradient #content.a > .vb, .theme-b.has-gradient .news-c article, .theme-b.has-gradient .gallery-b li:before, .theme-b.has-gradient .gallery-c ul li:before, .theme-b.has-gradient .gallery-a li a:before, .theme-b.has-gradient .gallery-b.b > li > div:before, .theme-b.gradient .news-e header figure:before {
-    background: -moz-linear-gradient(-45deg, #47c4f0 0%, #9fe3fd 100%);
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #47c4f0), color-stop(100%, #9fe3fd));
-    background: -webkit-linear-gradient(-45deg, #47c4f0 0%, #9fe3fd 100%);
-    background: -o-linear-gradient(-45deg, #47c4f0 0%, #9fe3fd 100%);
-    background: -ms-linear-gradient(-45deg, #47c4f0 0%, #9fe3fd 100%);
-    background: linear-gradient(135deg, #47c4f0 0%, #9fe3fd 100%);
+    background: -moz-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fca429), color-stop(100%, #ff6512));
+    background: -webkit-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -o-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -ms-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: linear-gradient(135deg, #fca429 0%, #ff6512 100%);
 }
 
 .ie9.theme-b.has-gradient #featured, .ie9.theme-b.has-gradient #getapp, .ie9.theme-b.has-gradient .list-a li a:hover i, .ie9.theme-b.has-gradient .list-b li .no, .ie9.theme-b.has-gradient #content.a > .vb, .ie9.theme-b.has-gradient .news-c article, .ie9.theme-b.has-gradient .gallery-b li:before, .ie9.theme-b.has-gradient .gallery-c ul li:before, .ie9.theme-b.has-gradient .gallery-a li a:before, .ie9.theme-b.has-gradient .gallery-b.b > li > div:before, .ie9.theme-b.gradient .news-e header figure:before {
@@ -4915,12 +4921,12 @@ svg:not(:root) {
 }
 
 .theme-c.has-gradient #featured, .theme-c.has-gradient #getapp, .theme-c.has-gradient .list-a li a:hover i, .theme-c.has-gradient .list-b li .no, .theme-c.has-gradient #content.a > .vb, .theme-c.has-gradient .news-c article, .theme-c.has-gradient .gallery-b li:before, .theme-c.has-gradient .gallery-c ul li:before, .theme-c.has-gradient .gallery-a li a:before, .theme-c.has-gradient .gallery-b.b > li > div:before, .theme-c.gradient .news-e header figure:before {
-    background: -moz-linear-gradient(-45deg, #35b8b0 0%, #1c799d 100%);
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #35b8b0), color-stop(100%, #1c799d));
-    background: -webkit-linear-gradient(-45deg, #35b8b0 0%, #1c799d 100%);
-    background: -o-linear-gradient(-45deg, #35b8b0 0%, #1c799d 100%);
-    background: -ms-linear-gradient(-45deg, #35b8b0 0%, #1c799d 100%);
-    background: linear-gradient(135deg, #35b8b0 0%, #1c799d 100%);
+    background: -moz-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fca429), color-stop(100%, #ff6512));
+    background: -webkit-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -o-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -ms-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: linear-gradient(135deg, #fca429 0%, #ff6512 100%);
 }
 
 .ie9.theme-c.has-gradient #featured, .ie9.theme-c.has-gradient #getapp, .ie9.theme-c.has-gradient .list-a li a:hover i, .ie9.theme-c.has-gradient .list-b li .no, .ie9.theme-c.has-gradient #content.a > .vb, .ie9.theme-c.has-gradient .news-c article, .ie9.theme-c.has-gradient .gallery-b li:before, .ie9.theme-c.has-gradient .gallery-c ul li:before, .ie9.theme-c.has-gradient .gallery-a li a:before, .ie9.theme-c.has-gradient .gallery-b.b > li > div:before, .ie9.theme-c.gradient .news-e header figure:before {
@@ -4933,20 +4939,20 @@ svg:not(:root) {
 
 /*! Theme - Green --------- */
 .theme-d button, .theme-d input[type="button"], .theme-d input[type="reset"], .theme-d input[type="submit"], .theme-d a, .theme-d .scheme-a, .theme-d .news-a header ul li i, .theme-d .news-a header ul li i:before, .theme-d .news-a header ul li a:hover, .theme-d #clone nav > ul > li.active > a, .theme-d #clone nav > ul > li:hover > a, .theme-d #clone nav > ul > li > a:hover, .theme-d .nav-a ul li a:hover span, .theme-d .nav-a ul li.active a span, .theme-d #root .search-a button, .theme-d .heading-a h1 .small, .theme-d .heading-a h2 .small, .theme-d .heading-a h3 .small, .theme-d .news-b article header p span, .theme-d .pagination-a li a, .theme-d .list-a li i, .theme-d .list-c > li > a, .theme-d .counter > span span, .theme-d .comments-a .date, .theme-d .nav-a h1 em, .theme-d .nav-a h2 em, .theme-d .nav-a h3 em, .theme-d .nav-a h4 em, .theme-d #root .nav-a > ul li.nav-sub a:hover, .theme-d #root .nav-a > ul li.nav-sub.active a, .theme-d .nav-a > ul li.nav-sub i:before, .theme-d #root .nav-a-new > ul li a:hover, .theme-d #root .nav-a-new > ul li.active a, .theme-d #root .nav-a.aside-cal ul li a:hover, .theme-d #root .nav-a.aside-cal ul li.active a {
-    color: #5488A9;
+    color: #ff6512;
 }
 
 .theme-d button:hover, .theme-d input[type="button"]:hover, .theme-d input[type="reset"]:hover, .theme-d input[type="submit"]:hover, .theme-d #featured, .theme-d #clone h1 a, .theme-d .nav-a ul li a:hover, .theme-d .nav-a ul li.active a, .theme-d #footer:before, .theme-d .social-a li a:hover, .theme-d .download-a li a:hover, .theme-d #top.active > .fit-a:before, .theme-d #top.active > .fit-a:after, .theme-d #clone.active > .fit-a:before, .theme-d #clone.active > .fit-a:after, .theme-d .heading-a h1:before, .theme-d .heading-a h2:before, .theme-d .heading-a h3:before, .theme-d .gallery-a li a:before, .theme-d .semantic-select .ticker:before, .theme-d #root .semantic-select ul li.active a, .theme-d .news-b article h1:before, .theme-d .news-b article h2:before, .theme-d .news-b article h3:before, .theme-d .news-b article h5:before, .theme-d .link-a a:hover, .theme-d .pagination-a li a:hover, .theme-d .pagination-a li.active a, .theme-d #root .semantic-select ul li a:hover, .theme-d .list-a li a:hover i, .theme-d #getapp h1:before, .theme-d #getapp h2:before, .theme-d .list-b li .no, .theme-d #content.a > .vb, .theme-d .news-c article, .theme-d .form-b button:before, .theme-d .list-c > li > a:hover, .theme-d .list-c > li > span span, .theme-d .counter > span span:before, .theme-d .comments-a ul:before, .theme-d .gallery-b li:before, .theme-d #root .gallery-b li > .fit-a:before, .theme-d #root .gallery-b li > .fit-a:after, .theme-d .gallery-c ul li:before, .theme-d .gallery-c .bx-pager .bx-pager-item a.active, .theme-d [data-carousel-3d] [data-prev-button], .theme-d [data-carousel-3d] [data-next-button], .theme-d [data-carousel-3d] [data-prev-button]:hover, .theme-d [data-carousel-3d] [data-next-button]:hover, .theme-d .slider-ba .bx-prev, .theme-d .slider-ba .bx-next, .theme-d .slider-ba .bx-prev:hover, .theme-d .slider-ba .bx-next:hover, .theme-d .slider-ba, .theme-d .gallery-b.b > li > div:before, .theme-d .news-d article h1:before, .theme-d .news-d article h2:before, .theme-d .news-d article h3:before, .theme-d .news-d article h4:before, .theme-d .news-d article h5:before, .theme-d .news-d article h6:before, .theme-d .news-d .bx-pager-item a.active, .theme-d .gallery-a .bx-pager-item a.active, .theme-d .gallery-b .bx-pager-item a.active, .theme-d .nav-a > ul li a:hover span.scheme-a, .theme-d .nav-a > ul li.active a span.scheme-a, .theme-d .news-e h1:before, .theme-d .news-e h2:before, .theme-d .news-e h3:before, .theme-d .news-e header figure:before, .theme-d .slider-bb .bx-prev, .theme-d .slider-bb .bx-next, .theme-d #getapp, .theme-d .gallery-a li.plain a .date:before {
-    background-color: #5488A9;
-    color: #fff;
+    background-color: #ff6512;
+    color: #030303;
 }
 
 .theme-d button, .theme-d input[type="button"], .theme-d input[type="reset"], .theme-d input[type="submit"], .theme-d input:focus, .theme-d select:focus, .theme-d textarea:focus, .theme-d #top > .fit-a:before, .theme-d #top > .fit-a:after, .theme-d #clone > .fit-a:before, .theme-d #clone > .fit-a:after, .theme-d .semantic-select.focus .input, .theme-d .semantic-select.active .input, .theme-d .semantic-select ul, .theme-d #contact input:focus, .theme-d #contact select:focus, .theme-d #contact textarea:focus, .theme-d #contact .semantic-select.focus .input, .theme-d #contact .semantic-select.active .input, .theme-d .link-a a, .theme-d .pagination-a li a, .theme-d .form-b input:focus, .theme-d .list-c > li > a, .theme-d #root .gallery-b li > .fit-a, .theme-d .link-a.a a {
-    border-color: #5488A9;
+    border-color: #ff6512;
 }
 
 .theme-d #clone nav > ul > li.a > a, .theme-d #clone nav > ul > li > ul, .theme-d #root #clone nav > ul > li.sub:hover > a, .theme-d #clone nav > ul > li > ul > li > ul {
-    background-color: #5488A9;
+    background-color: #ff6512;
     color: #fff;
 }
 
@@ -4980,16 +4986,16 @@ svg:not(:root) {
 }
 
 .theme-d.has-gradient #featured, .theme-d.has-gradient #getapp, .theme-d.has-gradient .list-a li a:hover i, .theme-d.has-gradient .list-b li .no, .theme-d.has-gradient #content.a > .vb, .theme-d.has-gradient .news-c article, .theme-d.has-gradient .gallery-b li:before, .theme-d.has-gradient .gallery-c ul li:before, .theme-d.has-gradient .gallery-a li a:before, .theme-d.has-gradient .gallery-b.b > li > div:before, .theme-d.gradient .news-e header figure:before {
-    background: -moz-linear-gradient(-45deg, #8EC6A8 0%, #41ABF7 100%);
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #8EC6A8), color-stop(100%, #41ABF7));
-    background: -webkit-linear-gradient(-45deg, #8EC6A8 0%, #41ABF7 100%);
-    background: -o-linear-gradient(-45deg, #8EC6A8 0%, #41ABF7 100%);
-    background: -ms-linear-gradient(-45deg, #8EC6A8 0%, #41ABF7 100%);
-    background: linear-gradient(135deg, #8EC6A8 0%, #41ABF7 100%);
+    background: -moz-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fca429), color-stop(100%, #ff6512));
+    background: -webkit-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -o-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -ms-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: linear-gradient(135deg, #fca429 0%, #ff6512 100%);
 }
 
 .ie9.theme-d.has-gradient #featured, .ie9.theme-d.has-gradient #getapp, .ie9.theme-d.has-gradient .list-a li a:hover i, .ie9.theme-d.has-gradient .list-b li .no, .ie9.theme-d.has-gradient #content.a > .vb, .ie9.theme-d.has-gradient .news-c article, .ie9.theme-d.has-gradient .gallery-b li:before, .ie9.theme-d.has-gradient .gallery-c ul li:before, .ie9.theme-d.has-gradient .gallery-a li a:before, .ie9.theme-d.has-gradient .gallery-b.b > li > div:before, .ie9.theme-d.gradient .news-e header figure:before {
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjOGVjNjRlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQxYWJhMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjOGVjNjRlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQxYWJhMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);    
 }
 
 .lt-ie9.theme-d.has-gradient #featured, .lt-ie9.theme-d.has-gradient #getapp, .lt-ie9.theme-d.has-gradient .news-c article, .lt-ie9.theme-d.has-gradient #content.a > .vb {
@@ -5054,12 +5060,12 @@ svg:not(:root) {
 }
 
 .theme-e.has-gradient #featured, .theme-e.has-gradient #getapp, .theme-e.has-gradient .list-a li a:hover i, .theme-e.has-gradient .list-b li .no, .theme-e.has-gradient #content.a > .vb, .theme-e.has-gradient .news-c article, .theme-e.has-gradient .gallery-b li:before, .theme-e.has-gradient .gallery-c ul li:before, .theme-e.has-gradient .gallery-a li a:before, .theme-e.has-gradient .gallery-b.b > li > div:before, .theme-e.gradient .news-e header figure:before {
-    background: -moz-linear-gradient(-45deg, #f34a56 0%, #ff6d55 100%);
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #f34a56), color-stop(100%, #ff6d55));
-    background: -webkit-linear-gradient(-45deg, #f34a56 0%, #ff6d55 100%);
-    background: -o-linear-gradient(-45deg, #f34a56 0%, #ff6d55 100%);
-    background: -ms-linear-gradient(-45deg, #f34a56 0%, #ff6d55 100%);
-    background: linear-gradient(135deg, #f34a56 0%, #ff6d55 100%);
+    background: -moz-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fca429), color-stop(100%, #ff6512));
+    background: -webkit-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -o-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -ms-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: linear-gradient(135deg, #fca429 0%, #ff6512 100%);
 }
 
 .ie9.theme-e.has-gradient #featured, .ie9.theme-e.has-gradient #getapp, .ie9.theme-e.has-gradient .list-a li a:hover i, .ie9.theme-e.has-gradient .list-b li .no, .ie9.theme-e.has-gradient #content.a > .vb, .ie9.theme-e.has-gradient .news-c article, .ie9.theme-e.has-gradient .gallery-b li:before, .ie9.theme-e.has-gradient .gallery-c ul li:before, .ie9.theme-e.has-gradient .gallery-a li a:before, .ie9.theme-e.has-gradient .gallery-b.b > li > div:before, .ie9.theme-e.gradient .news-e header figure:before {
@@ -9572,4 +9578,3 @@ svg:not(:root) {
         -ms-transform: none;
     }
 }
-
