@@ -410,6 +410,7 @@ AddDefaultCharset utf-8
 # </IfModule>
 
 Redirect 301 /en /index_en.html
+Redirect 301 /de /index.html
 
 
 # ######################################################################
