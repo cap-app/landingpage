@@ -461,15 +461,18 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
     margin-left: -603px;
 }
 
-#getapp h1, #getapp h2 {
+#getapp h1, #getapp h2, #getapp h3 {
     position: relative;
     margin-bottom: -4px;
     padding-top: 0;
-    color: #fff;
     font-size: 6.6em;
     font-family: 'SheltonSlab';
     font-weight: normal;
     font-style: normal;
+}
+
+#getapp h3 {
+    font-size: 3.4em;
 }
 
 #getapp h1 img, #getapp h2 img {
@@ -496,6 +499,10 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
     background: -o-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
     background: -ms-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
     background: linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+}
+
+#getapp figure.mobile-c {
+    top: 410px;
 }
 
 #getapp p {
@@ -8564,7 +8571,7 @@ svg:not(:root) {
 #heading {
     background-color: rgba(240, 138, 64, 0.5) !important;
     border-radius: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     padding: 0px 60px;
     width: 55%;
 }
