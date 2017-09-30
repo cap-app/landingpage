@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow:
+
+User-Agent: C3PO
+Allow: /translationhelp
+
+User-Agent: R2D2
+Disallow: /dead-robots
