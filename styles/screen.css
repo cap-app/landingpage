@@ -87,6 +87,10 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 }
 
 /*! Layout --------- */
+.opacity-100 {
+    opacity: 1;
+}
+
 #root {
     overflow: hidden;
     position: relative;
@@ -478,6 +482,22 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
     font-weight: 700;
 }
 
+#getapp h2 a {
+    display: block;
+    box-sizing: content-box;
+    position: relative;
+    border-radius: 20px;
+    opacity: 0.5;
+    width: 333px;
+    height: 100%;
+    background: -moz-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fca429), color-stop(100%, #ff6512));
+    background: -webkit-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -o-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -ms-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+}
+
 #getapp p {
     margin-bottom: 36px;
     font-size: 2.4em;
@@ -516,7 +536,8 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
     z-index: 1;
     width: 100%;
     height: 100%;
-    background-image: url(../images/highnoon.png);
+    background-image: url(../images/highnoon.png); 
+    background-repeat: no-repeat;
     background-position: center; 
 }
 
@@ -1202,12 +1223,12 @@ footer #imprint div > p:before, footer #imprint div > p:after {
 }
 
 .download-a.a li.as a {
-    background: url(../images/download-as-d.png) -5px -5px no-repeat;
+    background: url(../images/download-as-b.png) -5px -5px no-repeat;
     background-color: black;
 }
 
 .download-a.a li.gp a {
-    background: url(../images/download-gp-d.png) -5px -5px no-repeat;
+    background: url(../images/download-gp-b.png) -5px -5px no-repeat;
     background-color: black;
 }
 
@@ -1501,7 +1522,12 @@ footer #imprint div > p:before, footer #imprint div > p:after {
 .gallery-b li > div > a img, .gallery-b li > .fit-a * {
     position: absolute;
     left: -3000em;
-    top: 0;
+    top: 0;background: -moz-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fca429), color-stop(100%, #ff6512));
+    background: -webkit-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -o-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -ms-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: linear-gradient(135deg, #fca429 0%, #ff6512 100%);
 }
 
 #root .gallery-b li > .fit-a {
