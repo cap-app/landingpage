@@ -1,4 +1,4 @@
-# The tale project - When will your friends arrive?
+# The tale project - When will your friends arrive? ("They are late, eh?")
 ### The Idea
 Usually when you meet up with friends somebody will arrive late.
 This can be kind of annoying especially if you're the guy always
