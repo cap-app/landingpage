@@ -10,6 +10,9 @@ You can then adjust what you want to do depending on your latest
 friend. E.g. grep a coffee and then arrive together with him.
 
 ### Realization
+1. Landingpage
+2. Backend
+3. App
 
 ### Team Members
 * Felix Wenz
