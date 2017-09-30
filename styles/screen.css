@@ -4933,20 +4933,20 @@ svg:not(:root) {
 
 /*! Theme - Green --------- */
 .theme-d button, .theme-d input[type="button"], .theme-d input[type="reset"], .theme-d input[type="submit"], .theme-d a, .theme-d .scheme-a, .theme-d .news-a header ul li i, .theme-d .news-a header ul li i:before, .theme-d .news-a header ul li a:hover, .theme-d #clone nav > ul > li.active > a, .theme-d #clone nav > ul > li:hover > a, .theme-d #clone nav > ul > li > a:hover, .theme-d .nav-a ul li a:hover span, .theme-d .nav-a ul li.active a span, .theme-d #root .search-a button, .theme-d .heading-a h1 .small, .theme-d .heading-a h2 .small, .theme-d .heading-a h3 .small, .theme-d .news-b article header p span, .theme-d .pagination-a li a, .theme-d .list-a li i, .theme-d .list-c > li > a, .theme-d .counter > span span, .theme-d .comments-a .date, .theme-d .nav-a h1 em, .theme-d .nav-a h2 em, .theme-d .nav-a h3 em, .theme-d .nav-a h4 em, .theme-d #root .nav-a > ul li.nav-sub a:hover, .theme-d #root .nav-a > ul li.nav-sub.active a, .theme-d .nav-a > ul li.nav-sub i:before, .theme-d #root .nav-a-new > ul li a:hover, .theme-d #root .nav-a-new > ul li.active a, .theme-d #root .nav-a.aside-cal ul li a:hover, .theme-d #root .nav-a.aside-cal ul li.active a {
-    color: #afc625;
+    color: #5488A9;
 }
 
 .theme-d button:hover, .theme-d input[type="button"]:hover, .theme-d input[type="reset"]:hover, .theme-d input[type="submit"]:hover, .theme-d #featured, .theme-d #clone h1 a, .theme-d .nav-a ul li a:hover, .theme-d .nav-a ul li.active a, .theme-d #footer:before, .theme-d .social-a li a:hover, .theme-d .download-a li a:hover, .theme-d #top.active > .fit-a:before, .theme-d #top.active > .fit-a:after, .theme-d #clone.active > .fit-a:before, .theme-d #clone.active > .fit-a:after, .theme-d .heading-a h1:before, .theme-d .heading-a h2:before, .theme-d .heading-a h3:before, .theme-d .gallery-a li a:before, .theme-d .semantic-select .ticker:before, .theme-d #root .semantic-select ul li.active a, .theme-d .news-b article h1:before, .theme-d .news-b article h2:before, .theme-d .news-b article h3:before, .theme-d .news-b article h5:before, .theme-d .link-a a:hover, .theme-d .pagination-a li a:hover, .theme-d .pagination-a li.active a, .theme-d #root .semantic-select ul li a:hover, .theme-d .list-a li a:hover i, .theme-d #getapp h1:before, .theme-d #getapp h2:before, .theme-d .list-b li .no, .theme-d #content.a > .vb, .theme-d .news-c article, .theme-d .form-b button:before, .theme-d .list-c > li > a:hover, .theme-d .list-c > li > span span, .theme-d .counter > span span:before, .theme-d .comments-a ul:before, .theme-d .gallery-b li:before, .theme-d #root .gallery-b li > .fit-a:before, .theme-d #root .gallery-b li > .fit-a:after, .theme-d .gallery-c ul li:before, .theme-d .gallery-c .bx-pager .bx-pager-item a.active, .theme-d [data-carousel-3d] [data-prev-button], .theme-d [data-carousel-3d] [data-next-button], .theme-d [data-carousel-3d] [data-prev-button]:hover, .theme-d [data-carousel-3d] [data-next-button]:hover, .theme-d .slider-ba .bx-prev, .theme-d .slider-ba .bx-next, .theme-d .slider-ba .bx-prev:hover, .theme-d .slider-ba .bx-next:hover, .theme-d .slider-ba, .theme-d .gallery-b.b > li > div:before, .theme-d .news-d article h1:before, .theme-d .news-d article h2:before, .theme-d .news-d article h3:before, .theme-d .news-d article h4:before, .theme-d .news-d article h5:before, .theme-d .news-d article h6:before, .theme-d .news-d .bx-pager-item a.active, .theme-d .gallery-a .bx-pager-item a.active, .theme-d .gallery-b .bx-pager-item a.active, .theme-d .nav-a > ul li a:hover span.scheme-a, .theme-d .nav-a > ul li.active a span.scheme-a, .theme-d .news-e h1:before, .theme-d .news-e h2:before, .theme-d .news-e h3:before, .theme-d .news-e header figure:before, .theme-d .slider-bb .bx-prev, .theme-d .slider-bb .bx-next, .theme-d #getapp, .theme-d .gallery-a li.plain a .date:before {
-    background-color: #afc625;
+    background-color: #5488A9;
     color: #fff;
 }
 
 .theme-d button, .theme-d input[type="button"], .theme-d input[type="reset"], .theme-d input[type="submit"], .theme-d input:focus, .theme-d select:focus, .theme-d textarea:focus, .theme-d #top > .fit-a:before, .theme-d #top > .fit-a:after, .theme-d #clone > .fit-a:before, .theme-d #clone > .fit-a:after, .theme-d .semantic-select.focus .input, .theme-d .semantic-select.active .input, .theme-d .semantic-select ul, .theme-d #contact input:focus, .theme-d #contact select:focus, .theme-d #contact textarea:focus, .theme-d #contact .semantic-select.focus .input, .theme-d #contact .semantic-select.active .input, .theme-d .link-a a, .theme-d .pagination-a li a, .theme-d .form-b input:focus, .theme-d .list-c > li > a, .theme-d #root .gallery-b li > .fit-a, .theme-d .link-a.a a {
-    border-color: #afc625;
+    border-color: #5488A9;
 }
 
 .theme-d #clone nav > ul > li.a > a, .theme-d #clone nav > ul > li > ul, .theme-d #root #clone nav > ul > li.sub:hover > a, .theme-d #clone nav > ul > li > ul > li > ul {
-    background-color: #afc625;
+    background-color: #5488A9;
     color: #fff;
 }
 
@@ -4962,30 +4962,30 @@ svg:not(:root) {
 
 @media only screen and (max-width: 47.5em) {
     .theme-d #root #nav > ul > li > a, .theme-d #root #clone nav > ul > li > a, .theme-d #root #nav > ul > li > ul li a:hover, .theme-d #root #nav > ul > li > ul li.active {
-        color: #afc625;
+        color: #5488A9;
     }
 
     .theme-d #root #nav > ul > li > a:hover, .theme-d #root #clone nav > ul > li > a:hover, .theme-d #root #nav > ul > li.active > a, .theme-d #root #clone nav > ul > li.active > a {
-        background-color: #afc625;
+        background-color: #5488A9;
         color: #fff;
     }
 }
 
 ::selection {
-    background: #afc625;
+    background: #5488A9;
 }
 
 ::-moz-selection {
-    background: #afc625;
+    background: #5488A9;
 }
 
 .theme-d.has-gradient #featured, .theme-d.has-gradient #getapp, .theme-d.has-gradient .list-a li a:hover i, .theme-d.has-gradient .list-b li .no, .theme-d.has-gradient #content.a > .vb, .theme-d.has-gradient .news-c article, .theme-d.has-gradient .gallery-b li:before, .theme-d.has-gradient .gallery-c ul li:before, .theme-d.has-gradient .gallery-a li a:before, .theme-d.has-gradient .gallery-b.b > li > div:before, .theme-d.gradient .news-e header figure:before {
-    background: -moz-linear-gradient(-45deg, #8ec64e 0%, #41aba0 100%);
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #8ec64e), color-stop(100%, #41aba0));
-    background: -webkit-linear-gradient(-45deg, #8ec64e 0%, #41aba0 100%);
-    background: -o-linear-gradient(-45deg, #8ec64e 0%, #41aba0 100%);
-    background: -ms-linear-gradient(-45deg, #8ec64e 0%, #41aba0 100%);
-    background: linear-gradient(135deg, #8ec64e 0%, #41aba0 100%);
+    background: -moz-linear-gradient(-45deg, #8EC6A8 0%, #41ABF7 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #8EC6A8), color-stop(100%, #41ABF7));
+    background: -webkit-linear-gradient(-45deg, #8EC6A8 0%, #41ABF7 100%);
+    background: -o-linear-gradient(-45deg, #8EC6A8 0%, #41ABF7 100%);
+    background: -ms-linear-gradient(-45deg, #8EC6A8 0%, #41ABF7 100%);
+    background: linear-gradient(135deg, #8EC6A8 0%, #41ABF7 100%);
 }
 
 .ie9.theme-d.has-gradient #featured, .ie9.theme-d.has-gradient #getapp, .ie9.theme-d.has-gradient .list-a li a:hover i, .ie9.theme-d.has-gradient .list-b li .no, .ie9.theme-d.has-gradient #content.a > .vb, .ie9.theme-d.has-gradient .news-c article, .ie9.theme-d.has-gradient .gallery-b li:before, .ie9.theme-d.has-gradient .gallery-c ul li:before, .ie9.theme-d.has-gradient .gallery-a li a:before, .ie9.theme-d.has-gradient .gallery-b.b > li > div:before, .ie9.theme-d.gradient .news-e header figure:before {
@@ -4993,7 +4993,7 @@ svg:not(:root) {
 }
 
 .lt-ie9.theme-d.has-gradient #featured, .lt-ie9.theme-d.has-gradient #getapp, .lt-ie9.theme-d.has-gradient .news-c article, .lt-ie9.theme-d.has-gradient #content.a > .vb {
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8ec64e', endColorstr='#41aba0', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8EC6A8', endColorstr='#41ABF7', GradientType=1);
 }
 
 /*! Theme - Magenta --------- */
