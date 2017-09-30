@@ -404,13 +404,10 @@ AddDefaultCharset utf-8
 # | 301 redirects                                                       |
 # ----------------------------------------------------------------------
 
-# <IfModule mod_rewrite.c>
-#    RewriteEngine On
-#    RewriteRule ^/en/(.*)$ /index_en.html/$1 [L,R=301]
-# </IfModule>
-
-Redirect 301 /en /index_en.html
-Redirect 301 /de /index.html
+ <IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^de(.*)$ /index_de.html$1 [L]
+ </IfModule>
 
 
 # ######################################################################
