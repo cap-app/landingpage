@@ -8611,6 +8611,15 @@ svg:not(:root) {
     width: 100% !important;
 }
 
+#contact {
+    height: 400px;
+}
+
+#contact .heading-a {
+    width: 200px;
+    height: 100px;
+}
+
 /* Responsive --------- */
 @media only screen and (max-width: 68.75em) {
     /* 1100 */
