@@ -6181,7 +6181,7 @@ head.ready(function () {
     function loadScript() {
         var script = document.createElement('script');
         script.type = 'text/javascript';
-        script.src = 'https://maps.google.com/maps/api/js?sensor=false&language=en&callback=initialize';
+        script.src = 'https://maps.google.com/maps/api/js?sensor=false&language=en&key=AIzaSyCd73_-xPvYL38T1b-QQLzMfZhk6SKSf1c&callback=initialize';
         document.body.appendChild(script);
     }
 
