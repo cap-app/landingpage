@@ -8576,6 +8576,40 @@ svg:not(:root) {
     width: 55%;
 }
 
+/*styling for the quote*/
+.complete-quote {
+    display: flex;
+    width: 50% !important;
+    height: 250px;
+    background: -moz-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fca429), color-stop(100%, #ff6512));
+    background: -webkit-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -o-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: -ms-linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    background: linear-gradient(135deg, #fca429 0%, #ff6512 100%);
+    align-items: center;
+    text-align: center;
+}
+
+.complete-quote .quote-alignment {
+    color: white;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: auto !important;
+}
+
+#quote-sentence {
+    font-size: 2.5em;
+}
+
+#quote-author {
+    font-size: 1.5em;
+}
+
+.tumbleweed {
+    width: 100% !important;
+}
+
 /* Responsive --------- */
 @media only screen and (max-width: 68.75em) {
     /* 1100 */
