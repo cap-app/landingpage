@@ -9145,6 +9145,14 @@ svg:not(:root) {
 
 @media only screen and (max-width: 47.5em) {
 
+    #top #language {
+        right: 75px;
+    }
+
+    #getapp #heading {
+        width: auto;
+    }
+
     #heading {
         margin-left: auto;
         margin-right: auto;
