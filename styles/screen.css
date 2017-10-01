@@ -9137,6 +9137,12 @@ svg:not(:root) {
 }
 
 @media only screen and (max-width: 47.5em) {
+
+    #heading {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     /* 760 */
     #top h1, #clone h1, #featured > *, #content, #footer > *, #content.a > *, #contact > *, #contact > form, .news-b, #content.news-b, #getapp > *, #content.a > .module-a > *, #content.a > .va > *, #content.a > .vb > *, .news-c, #content.a > * > .news-c, #content.a > .va .slider-a, #content.a > .vb .slider-a, #content.a > .va, #content.a > .vb, .gallery-c > .heading-a {
         width: auto;
@@ -9637,6 +9643,7 @@ svg:not(:root) {
 
     #root #getapp > figure {
         margin-top: 0;
+        display: none;
     }
 
     .list-b {
@@ -9663,5 +9670,14 @@ svg:not(:root) {
         -webkit-transform: none;
         -o-transform: none;
         -ms-transform: none;
+    }
+
+    #heading {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .complete-quote {
+        width: 100% !important;
     }
 }
