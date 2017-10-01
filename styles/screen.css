@@ -8646,6 +8646,7 @@ svg:not(:root) {
 
     #getapp > figure.mobile-c {
         margin-left: -498px;
+        order: 3;
     }
 
     #getapp > figure.mobile-d {
@@ -8653,6 +8654,8 @@ svg:not(:root) {
     }
 
     #getapp {
+        display: flex;
+        flex-direction: column;
     }
 
     #getapp > * {
